@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Layout } from "../../components/Layout/layout";
 import axios from "axios";
-import { Loader } from "../../components/Loader/loader";
+import { Loader } from "../../components/Loader/Loader";
 import { CharacterCard } from "../../components/CharacterCard/CharacterCard";
 import { fetchingData } from "../../services/CharacterApi";
 
